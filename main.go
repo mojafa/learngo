@@ -66,7 +66,7 @@ func canIDrink(age int) bool {
 }
 
 func main() {
-	fmt.Println(canIDrink(22))
+	fmt.Println(canIDrink(12))
 	result := superAdd(1, 2, 3, 4, 5, 6, 7, 8)
 	fmt.Println(result)
 	defer fmt.Println("I'm done imagine")
